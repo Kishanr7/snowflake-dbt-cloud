@@ -1,1 +1,1 @@
-select sum(amount) from {{ ref('stg_payments') }} where status='success' group by 1
+select sum(amount) from {{ ref('stg_payments') }} where status='success' 
